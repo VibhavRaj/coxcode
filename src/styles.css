@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "Spartan", sans-serif;
+}
+:root {
+  --white: #ffffff;
+  --gray1: #fafafa;
+  --gray2: #eeeeee;
+  --gray3: #e0e0e0;
+  --gray4: #989898;
+  --black1: #333333;
+  --black2: #24292e;
+  --black3: #111111;
+  --yellow: #f7d240;
+}
+.button {
+}

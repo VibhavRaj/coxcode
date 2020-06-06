@@ -1,0 +1,31 @@
+.main {
+  display: flex;
+}
+.main > div {
+  width: 100px;
+  height: 100px;
+}
+.sec1 {
+  background: var(--gray1);
+}
+.sec2 {
+  background: var(--gray2);
+}
+.sec3 {
+  background: var(--gray3);
+}
+.sec4 {
+  background: var(--gray4);
+}
+.sec5 {
+  background: var(--black1);
+}
+.sec6 {
+  background: var(--black2);
+}
+.sec7 {
+  background: var(--black3);
+}
+.sec8 {
+  background: var(--yellow);
+}
