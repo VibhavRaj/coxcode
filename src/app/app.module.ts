@@ -9,6 +9,7 @@ import { BannerComponent } from "./components/banner/banner.component";
 import { FooterComponent } from "./components/footer/footer.component";
 @NgModule({
   declarations: [AppComponent, NavComponent, BannerComponent, FooterComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
