@@ -1,6 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
 body {
   font-family: "Spartan", sans-serif;
+  height: 100%;
 }
 :root {
   --white: #ffffff;
@@ -13,5 +19,65 @@ body {
   --black3: #111111;
   --yellow: #f7d240;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--black3);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 34px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 26px;
+}
+h4 {
+  font-size: 22px;
+}
+h5 {
+  font-size: 18px;
+}
+h6 {
+  font-size: 14px;
+}
+
+p {
+  color: var(--gray4);
+}
 .button {
+  text-decoration: none;
+  background: none;
+  border: none;
+  font-family: "Spartan", sans-serif;
+}
+.button:focus {
+  outline: none;
+}
+.button_sm {
+  background: var(--yellow);
+  padding: 8px 12px 5px 12px;
+  font-size: 12px;
+}
+.button_lg {
+  background: var(--black3);
+  padding: 12px 20px 10px 20px;
+  font-size: 15px;
+  color: var(--yellow);
+}
+
+.button_borderd {
+  border: 1px solid var(--black1);
+  padding: 11px 20px 10px 20px;
+  font-size: 15px;
+  color: var(--black1);
+}
+.spacer {
+  flex: 1 1 auto;
 }
