@@ -10,9 +10,6 @@
 # dependencies
 /node_modules
 
-#main source code
-/src
-
 # profiling files
 chrome-profiler-events*.json
 speed-measure-plugin*.json

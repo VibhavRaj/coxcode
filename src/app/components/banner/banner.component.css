@@ -1,0 +1,52 @@
+.main-container {
+  background: url("../../../assets/rocket.svg");
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  max-height: 150%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.main-container .banner-feature {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 100px;
+}
+.banner-feature .material-icons {
+  font-size: 44px;
+  padding-bottom: 20px;
+}
+.banner-feature h5 {
+  font-weight: 400;
+}
+.custom-button {
+  background: var(--black3);
+  padding: 15px 40px 12px 40px;
+  font-size: 18px;
+  color: var(--yellow);
+  border-radius: 25px;
+  margin: 15px 0;
+}
+@media only screen and (max-width: 768px) {
+  .main-container {
+    height: auto;
+    background-size: none;
+    max-height: auto;
+  }
+  .main-container h1 {
+    padding: 60px 0 20px 0;
+    font-size: 28px;
+  }
+  .main-container .banner-feature {
+    padding: 0px;
+    flex-direction: column;
+  }
+  .banner-feature .material-icons {
+    font-size: 44px;
+    padding: 15px 0;
+  }
+}

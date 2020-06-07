@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  padding: 15px 100px;
+  align-items: center;
+  background: var(--gray2);
+}
+nav ul li {
+  list-style: none;
+  display: inline;
+  padding: 7px 15px;
+}
+.button_lg {
+  background: var(--yellow);
+  color: var(--black3);
+}
+@media only screen and (max-width: 768px) {
+  nav {
+    padding: 15px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
