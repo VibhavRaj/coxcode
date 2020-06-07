@@ -1,0 +1,7 @@
+{
+  "/api": {
+    "target": "https://cncdigitalgyan.teachable.com/api/v1/hooks/",
+    "secure": false,
+    "logLevel": "debug"
+  }
+}

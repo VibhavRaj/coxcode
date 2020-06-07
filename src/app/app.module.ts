@@ -7,11 +7,12 @@ import { HttpClientModule } from "@angular/common/http";
 import { NavComponent } from "./components/nav/nav.component";
 import { BannerComponent } from "./components/banner/banner.component";
 import { FooterComponent } from "./components/footer/footer.component";
+import { SharedService } from "./service/shared.service";
 @NgModule({
   declarations: [AppComponent, NavComponent, BannerComponent, FooterComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
-  providers: [],
+  providers: [SharedService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
