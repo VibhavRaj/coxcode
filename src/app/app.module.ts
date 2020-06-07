@@ -11,7 +11,6 @@ import { FooterComponent } from "./components/footer/footer.component";
   declarations: [AppComponent, NavComponent, BannerComponent, FooterComponent],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
