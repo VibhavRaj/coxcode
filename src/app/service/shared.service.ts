@@ -5,9 +5,9 @@ import { Observable, throwError } from "rxjs";
 import { catchError, retry } from "rxjs/operators";
 const httpOptions = {
   headers: new HttpHeaders({
-    "Content-Type": "application/json",
+    "Content-Type": "application/x-www-form-urlencoded",
     Accept: "application/json, text/plain, */*",
-    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Origin": "http://localhost:4200",
     "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
   }),
 };
