@@ -16,7 +16,7 @@ export class SharedService {
     "https://cncdigitalgyan.teachable.com/api/v1/hooks/example?event_type=Enrollment.created";
   constructor(private http: HttpClient) {}
   getdata() {
-    return this.http.get(this.url, httpOptions).pipe(
+    return this.http.get(this.url).pipe(
       catchError(this.handleError) // then handle the error
     );
   }
